@@ -77,9 +77,9 @@ public class AdvancedEncryptionStandard {
 			// return encryptedText;
 			System.out.println("Encrypted text: " + encryptedText);
 			cipher.init(Cipher.DECRYPT_MODE, desKey);
-			byte decryptedText[] = cipher.doFinal(encryptedText);
+		//	byte decryptedText[] = cipher.doFinal(encryptedText);
 
-			System.out.println("Decrypted text: " + new String(decryptedText));
+		//	System.out.println("Decrypted text: " + new String(decryptedText));
 
 		}
 
