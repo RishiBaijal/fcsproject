@@ -75,7 +75,7 @@ public class DataEncryptStandard {
 		// return encryptedText;
 		System.out.println("Encrypted text: " + encryptedText);
 		cipher.init(Cipher.DECRYPT_MODE, desKey);
-		byte decryptedText[] = cipher.doFinal(encryptedText);
+		//byte decryptedText[] = cipher.doFinal(encryptedText);
 
 	//	System.out.println("Decrypted text: " + new String(decryptedText));
 
@@ -87,7 +87,7 @@ public class DataEncryptStandard {
 			// Create the cipher. Here, we have hard-coded the DES mode. We can
 			// allow user input later
 			String mode = "ECB", padding = "PKCS5Padding";
-			Cipher cipher;
+			//Cipher cipher;
 			BufferedReader obj = new BufferedReader(new InputStreamReader(
 					System.in));
 			System.out.println("Enter the string that you want to encrypt: ");
