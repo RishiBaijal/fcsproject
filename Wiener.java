@@ -25,7 +25,7 @@ public class Wiener {
 				b1 = b3.add(b2);
 			}
 			b1 = b1.shiftRight(1);
-			b2 = b2.shiftRight(1);
+			b2 = b2.shiftRight(2);
 		} while (b2.bitCount() != 0);
 		return b1;
 	}
